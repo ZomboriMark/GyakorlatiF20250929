@@ -1,3 +1,6 @@
+import { useContext } from "react"
+import <CardContext> from "./CardContext";
+
 function CardHead(){
     return(
     <>
