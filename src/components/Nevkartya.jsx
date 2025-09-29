@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Card from "./Card";
 
 function Nevkartya(){
 
@@ -16,6 +17,7 @@ function Nevkartya(){
 
         <p>Cimzett: {adatok.cimzett}</p>
         <p>Szöveg: {adatok.szoveg}</p>
+        <Card/>
         </>
     )
 }
