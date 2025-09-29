@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import React, { useState } from 'react'
+import Rulett from './components/Rulett'
 
 function App() {
 
   return (
     <>
-     
+    <Rulett/>
+
     </>
   )
 }
